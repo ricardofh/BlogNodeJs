@@ -1,3 +1,3 @@
 # BlogNodeJs
- Curso de NodeJs
+ Curso de NodeJs.
  Blog desenvolvido em NodeJs
