@@ -1,3 +1,3 @@
 # BlogNodeJs
  Curso de NodeJs.
-Desenvolviemtno de um blog
+Desenvolvimento de um blog
