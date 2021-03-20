@@ -1,0 +1,18 @@
+<h2>Lista de postagens</h2>
+<hr>
+<a href="/admin/postagens/add"><button class="btn btn-success">Nova Postagem</button></a>
+{{postagens}}
+{{#each postagens}}
+    <div class="card mt-4">
+        <div class="card-body ">
+            <h4>{{titulo}}</h4>
+            <p style="text-align: justify">Descrição: {{descricao}}</p>
+            <small>Data: {{data}}</small><br>
+            <small>Categoria: {{categoria.nome}}</small><br>
+            <a href="/admin/postagens/edit/{{id}}"><button class="btn btn-success mt-2">Editar postagem</button></a>
+            <a href="/admin/postagens/deletar/{{id}}"><button class="btn btn-danger mt-2">Deletar postagem</button></a>
+        </div>
+    </div>
+{{else}}
+    <p>Nenhuma postagem registrada</p>
+{{/each}}
